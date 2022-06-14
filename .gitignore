@@ -1,0 +1,23 @@
+Hello.py
+test.py
+# Poetry
+/dist/
+/.venv/
+__pycache__/
+__pypackages__/
+*.egg-info/
+#poetry.lock
+.coverage
+
+# Special cases
+procrustes
+*.pkg.tar.zst
+*.deb
+
+# IDE
+*.vim
+.nvimlog
+*.geany
+.idea
+*.sublime-project
+*.sublime-workspace
